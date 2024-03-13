@@ -1,0 +1,55 @@
+<div class="container">
+    <form [formGroup]="MyFormGroup" (ngSubmit)="saveCourse()" class="form-container">
+        <mat-form-field>
+            <mat-label>Enter course name</mat-label>
+            <input matInput formControlName="nameCourse">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Select course category</mat-label>
+            <mat-select formControlName="kodeKategory">
+                <mat-option [value]="category._id" *ngFor="let category of categories">
+                    {{category.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Enter the amount of lessons</mat-label>
+            <input matInput formControlName="amountLessons">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Enter start course date</mat-label>
+            <input matInput formControlName="startCourseDate">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Select way of learning</mat-label>
+            <mat-select formControlName="wayLearning">
+                <mat-option value="Zoom">zoom</mat-option>
+                <mat-option value="frontaly">frontaly</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Enter the image of the course</mat-label>
+            <input matInput formControlName="image">
+            <img [src]="MyFormGroup.controls['image'].value" *ngIf="MyFormGroup.controls['image'].value"
+                style="max-width: 100px; max-height: 100px;">
+        </mat-form-field>
+
+        <ng-container *ngFor="let videoCtrl of MyFormGroup.get('videosArr')['controls']; let i = index">
+            <mat-form-field>
+                <mat-label>Enter video {{ i + 1 }}</mat-label>
+                <input matInput [formControl]="videoCtrl">
+                <button class="delete-button" mat-button style="font-size: 12px; width: 1%; height: auto;
+                margin-left: 90%; padding: 8px;" (click)="removeVideo(i)">X</button>
+            </mat-form-field>
+        </ng-container>
+
+        <button type="button" class="btn btn-primary" (click)="addVideo()" style="background-color: grey; border-color: black;">Add Video</button>
+
+        <button class="btn btn-danger" type="submit">Save course</button>
+    </form>
+</div>
