@@ -115,7 +115,7 @@ Now you have the project set up locally and ready for development.
 You can see the courses in the "All courses" page.
 ![All courses](https://github.com/chayaleA/Courses-server-client/assets/150287616/37368d70-e240-4c23-9c81-2aa7fa0d3f09)
 
-To watch vidio, Hover over the course card and click on the "Start learn" button.
+To watch video, Hover over the course card and click on the "Start learn" button.
 ![start learn](https://github.com/chayaleA/Courses-server-client/assets/150287616/03b95099-44cb-450b-9477-3c92397d9464)
 
 And start watching.
@@ -135,9 +135,9 @@ Navigate to the "Add course" page.
 In the form that opens, insert the course's details as you wish.
 ![add course](https://github.com/chayaleA/Courses-server-client/assets/150287616/99695e8e-d62c-4ff4-aa99-700df04307a0)
 
-You can also add vidio or delete once:
+You can also add video or delete once:
 
-![add vidio](https://github.com/chayaleA/Courses-server-client/assets/150287616/a0ab151b-4e17-403e-ba56-13df3717f376)
+![add video](https://github.com/chayaleA/Courses-server-client/assets/150287616/a0ab151b-4e17-403e-ba56-13df3717f376)
 
 ### Search
 You can search for a course easily, enter the name of the course you want to search for in the search box.
