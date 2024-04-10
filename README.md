@@ -116,14 +116,14 @@ You can see the courses in the "All courses" page.
 ![All courses](https://github.com/chayaleA/Courses-server-client/assets/150287616/37368d70-e240-4c23-9c81-2aa7fa0d3f09)
 
 To watch vidio, Hover over the course card and click on the "Start learn" button.
-![start learn](https://github.com/chayaleA/Courses-server-client/assets/150287616/143248b9-9372-4923-b50d-d0be342f65e5)
+![start learn](https://github.com/chayaleA/Courses-server-client/assets/150287616/03b95099-44cb-450b-9477-3c92397d9464)
 
 And start watching.
 ![start watching](https://github.com/chayaleA/Courses-server-client/assets/150287616/62c3b948-743e-4fef-b50d-d387cd9069eb)
 
 ### Editing a course
 You can edit a course only if you own it. Hover over the course card and click on the edit icon. 
-![edit](https://github.com/chayaleA/Courses-server-client/assets/150287616/c92a0cff-4f42-4cfc-aa74-478e3067db95)
+![edit](https://github.com/chayaleA/Courses-server-client/assets/150287616/62fa3087-b6c1-4b97-93cb-373dc5f85bbb)
 
 In the form that opens, update the course's details as you wish.
 ![update](https://github.com/chayaleA/Courses-server-client/assets/150287616/2af2f6ac-1aa0-48da-9dfe-51bd8e348164)
